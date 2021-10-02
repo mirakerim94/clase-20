@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: antiquewhite;
+}
+h1{
+    text-align: center;
+}
+nav{
+    width: 90%;
+    height: 60px;
+    text-align: center;
+    background-color: rgb(149, 143, 143);
+    margin: 1em auto;
+}
+a{
+    padding-right: 0.5em;
+}
+.na{
+    padding-top: 1em;
+}
+.one{
+    width: 90%;
+    height: 150px;
+    text-align: center;
+    background-color: rgb(149, 143, 143);
+    margin: 1em auto;
+}
+h2{
+    font-weight: lighter;
+}
+.two{
+    width: 85%;
+    height: 200px;
+    text-align: center;
+    display:flex;
+    background-color: rgb(149, 143, 143);
+    margin: 1em auto;
+    flex-wrap: wrap;
+}
+.caja{
+    width: 30%;
+    height: auto;
+    flex-grow: 1;
+    padding-top: 1.5em;
+    padding-bottom: 6em;
+}
+.caja2{
+    width: 100%;
+    flex-grow: 1;
+    height: 1em;
+}
